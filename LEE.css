@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+   margin: 0;
+    padding-top: 800px;
+    background-color: aqua;
+    
+}
+
+#INTRODUCTION{
+background:linear-gradient(#03fcfc 0%,#1127ed 100%);
+ height: 100%;
+width: 100%;
+position: absolute;
+    display: table;
+   top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    color: crimson;
+    opacity:1;
+   
+}
+
+#main{
+    border-radius: 50%;
+}
+
+#bio{
+color:darkviolet;
+
+    padding: 50px;
+}
+
+#line{
+    background-color: black;
+    height: 10px;
+    width:100px;
+    margin: 10px auto;    
+}
+
+.vertical{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+p{
+    font-size: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.beautify{
+    list-style : none;
+    font-family: Goudy Old Style;
+    font-size:25px;
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+    top: 20px;
+    right: 30px;
+    color:white;
+}
+
+.beautify2{
+    float:left;
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;  
+}
+
+.beautify2:hover{
+    background-color: #fa00ed;
+    color:white;
+}
+
+#intro{
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.article:hover{
+   color:white;
+   }
+
+a{
+text-decoration: none;
+}
+
+.impo {
+    background:maroon; 
+}
+
+.impo h2{
+    display:inline;
+}
+
+.mymail{
+    color:yellow;
+}
